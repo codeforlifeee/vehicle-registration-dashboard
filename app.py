@@ -388,7 +388,7 @@ def main():
             color=top_manufacturers.values,
             color_continuous_scale='Blues'
         )
-        fig_top_mfg.update_xaxis(tickangle=45)
+        fig_top_mfg.update_xaxes(tickangle=45)
         st.plotly_chart(fig_top_mfg, use_container_width=True)
 
         # Manufacturer performance by category
